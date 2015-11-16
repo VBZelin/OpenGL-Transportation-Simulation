@@ -1,0 +1,37 @@
+﻿Build started 10/14/2013 1:56:51 PM.
+     1>Project "C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Transportation\Transportation.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Transportation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp ObjModel.cpp PPMImage.cpp TrafficLight.cpp utility.cpp
+         utility.cpp
+     1>c:\users\yuzhong shen\documents\courses\odu\msim 641\fall 2013\programming assignments\p2\transportation\transportation\utility.cpp(5): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuzhong shen\documents\courses\odu\msim 641\fall 2013\programming assignments\p2\transportation\transportation\utility.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+         TrafficLight.cpp
+         PPMImage.cpp
+         ObjModel.cpp
+     1>c:\users\yuzhong shen\documents\courses\odu\msim 641\fall 2013\programming assignments\p2\transportation\transportation\objmodel.cpp(250): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuzhong shen\documents\courses\odu\msim 641\fall 2013\programming assignments\p2\transportation\transportation\objmodel.cpp(303): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuzhong shen\documents\courses\odu\msim 641\fall 2013\programming assignments\p2\transportation\transportation\objmodel.cpp(352): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuzhong shen\documents\courses\odu\msim 641\fall 2013\programming assignments\p2\transportation\transportation\objmodel.cpp(355): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Debug\Transportation.exe" /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Transportation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Debug\Transportation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Debug\Transportation.lib" /MACHINE:X86 Debug\main.obj
+         Debug\ObjModel.obj
+         Debug\PPMImage.obj
+         Debug\TrafficLight.obj
+         Debug\utility.obj
+         Transportation.vcxproj -> C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Debug\Transportation.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Debug\Transportation.exe;#1" /manifest Debug\Transportation.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Transportation.unsuccessfulbuild".
+         Touching "Debug\Transportation.lastbuildstate".
+     1>Done Building Project "C:\Users\Yuzhong Shen\Documents\Courses\ODU\MSIM 641\Fall 2013\Programming Assignments\P2\Transportation\Transportation\Transportation.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.02
